@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lista de Tarefas</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container text-left mt-4 add-task "> 
+            <h1>Lista de Tarefas</h1>
+            <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+            <button id="addTask" class="btn btn-primary btn-sm">Adicionar Tarefa</button> 
+            <div id="taskList" class="mt-4"> 
+                
+            </div>
+        </div>
+    
+        <div class="container text-left mt-4 prontas"> 
+            <h2>Tarefas Concluídas</h2>
+            <table id="completedTasks">
+               
+            </table>
+        </div>
+        
+        <div class="container text-left mt-4 deletadas"> 
+            <h2>Tarefas Excluídas</h2>
+            <table id="deletedTasks">
+                
+            </table>
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
+</html>
