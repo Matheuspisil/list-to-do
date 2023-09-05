@@ -1,5 +1,5 @@
 # list-to-do
-list to do pratico, com alguns lisenings basicos.
+list-to-do: pratico, com alguns lisenings basicos.
 
 evio com enter e ao click
 
