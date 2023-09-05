@@ -1,15 +1,15 @@
 # list-to-do
-list-to-do: pratico, com alguns lisenings basicos.
+list-to-do: Pratico, com alguns listeners básicos.
 
--evio com enter e ao click.
+-Envio com enter e ao click.
 
--exibição dos concluidos e escluidos em tabela TH.
+-Exibição dos concluidos e escluidos em tabela TH.
 
--reload reformatado.
+-Reload reformatado.
 
--aceita qualquer string.
+-Aceita qualquer string.
 
--otimo para tarefas diarias.
+-Ótimo para tarefas diarias.
 
 
 
